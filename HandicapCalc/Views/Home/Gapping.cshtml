@@ -1,0 +1,175 @@
+﻿@{
+    ViewData["Title"] = "Gapping Analyzer";
+}
+<p>This page will allow the user to input their carry yardages for each club in their bag, and will analyze the yardage gaps between each club. 
+    It will identify problematic gaps in their bag and provide club suggestions to fix any gapping issues.</p>
+<div class="horizontalMaster">
+    <div class="horizontalLeft">
+        <table>
+            <tr>
+                <th>Club</th>
+                <th>Value</th>
+                <th>Gap</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="driver">Driver:</label>
+                </td>
+                <td>
+                    <input type="text" id="driver" name="driver">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="wood3">3 Wood:</label>
+                </td>
+                <td>
+                    <input type="text" id="wood3" name="wood3">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hybrid">Hybrid:</label>
+                </td>
+                <td>
+                    <input type="text" id="hybrid" name="hybrid">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron3">3 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron3" name="iron3">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron4">4 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron4" name="iron4">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron5">5 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron5" name="iron5">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron6">6 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron6" name="iron6">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron7">7 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron7" name="iron7">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron8">8 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron8" name="iron8">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iron9">9 Iron:</label>
+                </td>
+                <td>
+                    <input type="text" id="iron9" name="iron9">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="wedgePW">Pitching Wedge:</label>
+                </td>
+                <td>
+                    <input type="text" id="wedgePW" name="wedgePW">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="wedgeGW">Gap Wedge:</label>
+                </td>
+                <td>
+                    <input type="text" id="wedgeGW" name="wedgeGW">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="wedgeSW">Sand Wedge:</label>
+                </td>
+                <td>
+                    <input type="text" id="wedgeSW" name="wedgeSW">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="wedgeLW">Lob Wedge:</label>
+                </td>
+                <td>
+                    <input type="text" id="wedgeLW" name="wedgeLW">
+                </td>
+                <td>
+                    <h4></h4>
+                </td>
+            </tr>
+        </table>
+
+        <button onclick="collectClubData()">Analyze</button>
+    </div>
+    <div class="horizontalRight">
+        
+    </div>
+</div>

@@ -1,0 +1,140 @@
+/*----------------------------------------------------------*/
+/* FONTS */
+
+@font-face {
+    font-family: 'circular-std-medium-500';
+    src: url('../fonts/circular-std-medium-500.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------*/
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: white;
+    font-family: 'circular-std-medium-500';
+}
+
+input {
+    border-radius: 5px;
+    margin: 4px;
+    width: 7vw;
+}
+
+button {
+    border-radius: 6px;
+}
+
+#master-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#scores-container, #scores-container2 {
+    flex:1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.score-line {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: right;
+}
+
+.input-label {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+input {
+    font-size: 14px;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    background-color: #F2F3F3;
+}
+
+.numberDiv {
+    width: 40px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.numberDiv p {
+    margin: 0;
+    line-height: normal;
+    text-align: right;
+}
+
+.golficon {
+    overflow: visible;
+    position: absolute;
+    left: calc((100% - 90px) / 2);
+    margin: 0 20px 0 20px;
+    width: 40px;
+    display: table-cell;
+}
+
+button {
+    margin: 6px;
+    border-color: white;
+    background-color: #00649f;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 12px;
+    border-style: solid;
+}
+
+a {
+    color: #00649F;
+}
+
+header {
+    background-color: #00649F;
+}
+
+.horizontalMaster {
+    display: flex;
+}
+
+.horizontalLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontalRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
