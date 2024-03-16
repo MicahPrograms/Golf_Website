@@ -141,3 +141,15 @@ tr {
     width: 100%; /* Ensure the table spans the entire width */
     table-layout: fixed;
 }
+
+td, th {
+    flex: 1; /* Distribute the space evenly among columns */
+    text-align: center; /* Center align the content within each column */
+}
+
+
+h4 {
+    position: relative;
+    top: 50%; /* Move the element down by 50% of its own height */
+    transform: translateY(23px); /* Compensate by moving the element up by 50% of its own height */
+}
