@@ -133,9 +133,11 @@ header {
     flex-direction: column;
 }
 
-td {
-    display: inline-flex;
+tr {
+    display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    background-color: black;
+    justify-content: space-around;
+    display: table;
+    width: 100%; /* Ensure the table spans the entire width */
+    table-layout: fixed;
 }
