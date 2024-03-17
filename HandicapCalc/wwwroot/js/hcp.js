@@ -235,9 +235,8 @@ function calculateHandicap() {
 }
 
 function clearScores() {
-    var div = document.getElementById('scores-container');
-    div.innerHTML = '';
-    document.getElementById('handicap').innerHTML = "";
+    
+    location.reload();
 }
 
 function deleteScoreLine(classId) {

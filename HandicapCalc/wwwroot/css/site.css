@@ -151,5 +151,5 @@ td, th {
 h4 {
     position: relative;
     top: 50%; /* Move the element down by 50% of its own height */
-    transform: translateY(23px); /* Compensate by moving the element up by 50% of its own height */
+    transform: translateY(23px); 
 }
